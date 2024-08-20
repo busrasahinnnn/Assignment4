@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Conference 2024</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">TechConf 2024</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home" onclick="showTab('home')">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about" onclick="showTab('about')">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#schedule" onclick="showTab('schedule')">Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#speakers" onclick="showTab('speakers')">Speakers</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#tickets" onclick="showTab('tickets')">Tickets</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact" onclick="showTab('contact')">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="tab-content home-section">
+        <div class="text-overlay">
+            <h1>Welcome to TechConf 2024</h1>
+            <p>Join us for an exciting conference filled with insights from leading tech experts.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="tab-content container py-5">
+        <h2 class="section-title">About the Event</h2>
+        <p class="about-text">At Tech Conference 2024, we are dedicated to inspiring and empowering the next generation of tech leaders. This year, our event is packed with diverse sessions designed to cater to every interest and expertise level. From cutting-edge research presentations and hands-on demonstrations to panel discussions featuring experts from various tech sectors, there is something for everyone.
+
+            This year's themes include sustainable technology, artificial intelligence ethics, the future of work, and advances in quantum computing. Our interactive expo hall will showcase the latest innovations from leading tech companies and promising startups, offering participants a chance to engage directly with emerging technologies and solutions.
+            
+            Attendees will also have the opportunity to participate in collaborative hackathons and coding competitions, where creativity and problem-solving skills come to life. Plus, with our dedicated tracks for professional development, you'll find ample opportunities for personal and career growth.
+            
+            Don't miss this chance to connect with fellow innovators, learn from top industry experts, and take part in conversations that will drive the tech world forward. Whether you are looking to forge new partnerships or showcase your latest project, Tech Conference 2024 is the place to be. Join us in celebrating the power of technology to transform our world!</p>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule" class="tab-content container py-5">
+        <h2 class="section-title">Schedule</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 1</h5>
+                        <p class="card-text">Welcome to Day 1 of Tech Conference 2024! We kick off our exciting journey with a grand opening introduction that sets the stage for an immersive technological experience. Our distinguished keynote speaker will delve into the theme of the year, “Innovating for a Better Tomorrow,” focusing on how emerging technologies can address global challenges. Following the keynote, engage in dynamic networking sessions designed to connect you with industry leaders, pioneers, and fellow innovators. Share ideas, discuss collaborative projects, and build relationships that can propel your ventures to the next level. Prepare to be inspired and motivated as we embark on this incredible technological exploration together!
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 2</h5>
+                        <p class="card-text">Day 2 is all about interaction and exploration. Dive deep into the world of technology with our comprehensive series of hands-on workshops led by top experts and practitioners. Whether you're interested in AI programming, blockchain development, or cybersecurity strategies, there’s a workshop tailored for you. Simultaneously, our panel discussions will bring thought leaders together to debate and discuss the current trends and future directions of critical tech sectors—an opportunity to gain diverse perspectives and insights. Don’t miss the opportunity to explore our exhibition hall, where the latest innovations and products are on display. Interact with groundbreaking technologies and meet the visionaries behind them in a one-of-a-kind experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Day 3</h5>
+                        <p class="card-text">As Tech Conference 2024 draws to a close, Day 3 promises to leave you with powerful insights and a vision for the future. Join us for the closing ceremony, a celebration of knowledge shared and connections made. Reflect on the week’s learnings as we capture key highlights and achievements. The event concludes with our Future Tech Insights session, where forward-thinking experts will provide predictions and provocative insights into what lies ahead for technology and its role in shaping our society. As we say goodbye, carry forward the inspiration and ideas gathered, and let them fuel your journey in technology until we meet again.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Speakers Section -->
+    <section id="speakers" class="tab-content container py-5">
+        <h2 class="section-title">Speakers</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="https://www.headshotbooths.com/wp-content/uploads/2024/01/230109_132704.jpg.webp" class="card-img-top" alt="Speaker 1">
+                    <div class="card-body">
+                        <h5 class="card-title">John Doe</h5>
+                        <p class="card-text">Expert in AI and Machine Learning.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#speaker1Modal">More Info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="https://www.headshotbooths.com/wp-content/uploads/2024/01/230109_171226.jpg.webp" class="card-img-top" alt="Speaker 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Jane Smith</h5>
+                        <p class="card-text">Specialist in Cybersecurity.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#speaker2Modal">More Info</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="https://www.headshotbooths.com/wp-content/uploads/2024/01/230109_193502.jpg" class="card-img-top" alt="Speaker 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Michael Brown</h5>
+                        <p class="card-text">Cybersecurity Guru.</p>
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#speaker3Modal">More Info</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for Speakers -->
+    <!-- Modal 1 -->
+    <div class="modal fade" id="speaker1Modal" tabindex="-1" aria-labelledby="speaker1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="speaker1ModalLabel">John Doe - AI and Machine Learning</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    John Doe has over 20 years of experience in the field of Artificial Intelligence and Machine Learning. He is a leading researcher and has published numerous papers on the subject.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="speaker2Modal" tabindex="-1" aria-labelledby="speaker2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="speaker2ModalLabel">Jane Smith - Blockchain and FinTech</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Jane Smith is a FinTech entrepreneur with a deep understanding of blockchain technology. She has been at the forefront of several blockchain innovations and startups.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="speaker3Modal" tabindex="-1" aria-labelledby="speaker3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="speaker3ModalLabel">Michael Brown - Cybersecurity</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Michael Brown is a cybersecurity expert with extensive experience in protecting systems from various types of cyber threats. His insights into security protocols are highly valued.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Tickets Section -->
+    <!-- Tickets Section -->
+<section id="tickets" class="tab-content container py-5">
+    <h2 class="section-title">Tickets</h2>
+    <p>Get your tickets now for TechConf 2024! We offer various ticket options to suit your needs:</p>
+    <ul>
+        <li>Early Bird</li>
+        <li>Standart</li>
+        <li>On-Site</li>
+    </ul>
+    <button class="btn btn-primary">Buy Tickets</button>
+
+    <!-- Table with Ticket Details -->
+    <div class="mt-5">
+        <h3 class="section-subtitle">Ticket Pricing</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col">Ticket Type</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Details</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Early Bird</td>
+                    <td>$199</td>
+                    <td>Available until 30th September</td>
+                </tr>
+                <tr>
+                    <td>Standard</td>
+                    <td>$249</td>
+                    <td>Available until 31st December</td>
+                </tr>
+                <tr>
+                    <td>On-Site</td>
+                    <td>$299</td>
+                    <td>Available at the event</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="tab-content container py-5">
+        <h2 class="section-title">Contact Us</h2>
+        <p>If you have any questions or need more information, feel free to reach out:</p>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Join Now for FREE</p>
+        <div class="social-media">
+            <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

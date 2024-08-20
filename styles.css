@@ -1,0 +1,96 @@
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(50, 50, 181); /* Orange color */
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc80; /* Light orange color on hover */
+}
+
+.home-section {
+    position: relative;
+    height: 100vh;
+    background: url('https://img.freepik.com/premium-photo/tech-conferences-events_985067-1800.jpg') no-repeat center center/cover;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-shadow: black;
+    text-align: center;
+    animation: slideIn 2s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translate(-50%, -60%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+
+.section-title {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container {
+    padding-top: 2rem;
+}
+
+.about-text {
+    font-size: 1.25rem;
+    line-height: 1.8;
+}
+
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.footer {
+    background-color: rgb(50, 50, 181);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #2e27b0, #1f12cf);
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #2e27b0, #1f12cf);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+}
+
